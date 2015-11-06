@@ -25,4 +25,5 @@ fi
 export HOME=$HOME_BACK
 
 # Just build the static site
+rm -rf build
 bundle exec middleman build --clean --verbose
