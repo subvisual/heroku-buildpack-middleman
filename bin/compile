@@ -25,6 +25,7 @@ fi
 export HOME=$HOME_BACK
 
 # Just build the static site
+ls
 cp -R vendor/blue/images/* source/images
 rm -rf build
 bundle exec middleman build --clean --verbose
