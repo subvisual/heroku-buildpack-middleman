@@ -25,8 +25,7 @@ fi
 export HOME=$HOME_BACK
 
 # Just build the static site
-ls vendor/blue
-git submodule update
+ls vendor
 ls vendor/blue
 cp -R vendor/blue/images/* source/images
 rm -rf build
